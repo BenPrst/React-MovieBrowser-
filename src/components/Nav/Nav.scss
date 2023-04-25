@@ -1,0 +1,24 @@
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #15141f;
+  -webkit-box-shadow: 0px -10px 30px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -10px 30px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -10px 30px -5px rgba(0, 0, 0, 0.75);
+  a.active {
+    svg {
+      fill: #f75c43;
+    }
+  }
+  svg {
+    fill: grey;
+    width: 50px;
+    height: 40px;
+  }
+}
